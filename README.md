@@ -4,8 +4,11 @@ A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Usage_example.png" alt="Usage example" width="700">
 
-> [!IMPORTANT]
+
+> [!IMPORTANT]  
 > Last tested on 13 October 2026 with Proton Docs and the Proton Docs editor version 0.2.205.0 in the Brave browser.
+
+
 
 ## Features
 
