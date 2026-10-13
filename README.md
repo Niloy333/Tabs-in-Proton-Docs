@@ -4,6 +4,9 @@ A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Usage_example.png" alt="Usage example" width="700">
 
+> [!IMPORTANT]
+> Last tested on 13 October 2026 with Proton Docs and the Proton Docs editor version 0.2.205.0 in the Brave browser.
+
 ## Features
 
 - **Heading 1 = tab.** Type `#` followed by a space at the start of a line (or pick *Heading 1* from the toolbar) to create a new tab. The tab label is the heading text.
@@ -22,8 +25,6 @@ A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://
 6. The extension stays installed across browser restarts. To update it, replace the folder's contents with the newer version and click the reload icon on the extension's card.
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Brave_Extensions_page.png" alt="Brave extensions page" width="700">
-
-
 
 ## Tips
 
