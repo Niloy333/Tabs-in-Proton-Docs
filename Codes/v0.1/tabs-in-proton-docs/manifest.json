@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tabs in Proton Docs",
+  "version": "0.1.0",
+  "description": "Turns every Heading 1 in a Proton Docs document into a tab and shows only the selected tab's content.",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://docs-editor.proton.me/*", "https://docs.proton.me/*"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ]
+}
