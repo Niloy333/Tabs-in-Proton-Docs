@@ -4,8 +4,12 @@ A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Usage_example.png" alt="Usage example" width="700">
 
-> [!IMPORTANT]  
-> Last tested on 13 October 2026 with Proton Docs and the Proton Docs Editor version 0.2.205.0 in the Brave browser.
+
+
+> [!IMPORTANT]
+> ![Last tested](https://img.shields.io/github/last-commit/Niloy333/Tabs-in-Proton-Docs/base?label=last%20tested) with Proton Docs and the Proton Docs Editor version 0.2.205.0 in the Brave browser.
+<!-- https://docs.proton.me/assets/version.json
+https://docs-editor.proton.me/assets/version.json -->
 
 ## Features
 
@@ -36,8 +40,8 @@ A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://
 - **Your document is never modified.** Tabs are a visual layer only: the extension hides other tabs' content on your screen and saves nothing to the document. Collaborators, the mobile apps, and exports always see the full document.
 - **The selected tab isn't remembered.** After reloading the page, the first tab will be shown.
 - **Proton updates may break it.** The extension depends on the current structure of the Proton Docs editor. If Proton changes it, the tab bar may stop appearing, but your document stays untouched.
-- **Privacy.** The extension runs entirely in your browser, makes no network requests, collects no data, and needs no special permissions beyond running on `docs.proton.me` and `docs-editor.proton.me`.
+- The extension runs entirely in your browser, makes no network requests, collects no data, and needs no special permissions beyond running on `docs.proton.me` and `docs-editor.proton.me`.
 
 ## Disclaimer
 
-This is an independent project for personal use and not affiliated with or endorsed by Proton AG. "Proton" and "Proton Docs" are trademarks of Proton AG. LLMs were used to modify and customize it. Please feel free to use and modify at your own risk.
+This is an independent project for personal use and not affiliated with or endorsed by Proton AG. LLMs were used to modify and customize it. Feel free to use and modify at your own risk.
