@@ -43,3 +43,5 @@ A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://
 ## Disclaimer
 
 This is an independent project for personal use and not affiliated with or endorsed by [Proton AG](https://en.wikipedia.org/wiki/Proton_AG). LLMs were used to modify and customize it. Feel free to use and modify at your own risk.
+
+[![Repository DOI](https://img.shields.io/badge/Repository_DOI-10.5281%2Fzenodo.23417660-blue)](https://doi.org/10.5281/zenodo.23417660)
