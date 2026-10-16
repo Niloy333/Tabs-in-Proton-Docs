@@ -1,8 +1,9 @@
 # Tabs in Proton Docs
+**—Add multiple tabs in a Proton document**
 
 A small Chrome/Brave extension that adds document tabs to [Proton Docs](https://proton.me/drive/docs). Every **Heading 1** in your document becomes a tab, and only the selected tab's content is shown. Headings 2 to 6 stay free to use inside each tab. The "Outline" sidebar on the left will function as usual within a specific tab, but will not switch between tabs. Use the tab bar at the bottom to switch between tabs.
 
-<img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Usage_example.png" alt="Usage example" width="700">
+<img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Usage_example.png" alt="Tabs in Proton Docs extension usage example" width="700">
 
 > [!IMPORTANT]
 > ![Last tested](https://img.shields.io/github/last-commit/Niloy333/Tabs-in-Proton-Docs/base?label=last%20tested) with Proton Docs and the Proton Docs Editor version 0.2.205.0 in the Brave browser.<br>
