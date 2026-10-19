@@ -35,10 +35,10 @@ Install the extension from [Mozilla Add-ons](https://addons.mozilla.org/en-US/fi
 4. Turn on **Developer mode** (top right).
 5. Click **Load unpacked** and select the folder that contains `manifest.json`.
 6. Reload any Proton Docs pages you already have open.
-7. The extension will stay installed and active across browser and system restarts.
-8. To update it (manually), replace the folder's contents with the newer version and click the reload icon on the extension's card.
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Brave_Extensions_page.png" alt="Brave extensions page" width="700">
+
+The extension will stay installed and active across browser and system restarts. To update it (manually), replace the folder's contents with the newer version and click the reload icon on the extension's card.
 
 ## Tips
 
