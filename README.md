@@ -11,11 +11,11 @@ A small browser extension that adds tabs to [Proton Docs](https://proton.me/driv
 
 ## Features
 
-- **Heading 1 = tab.** Type `#` followed by a space at the start of a line (or pick *Heading 1* from the toolbar) to create a new tab. The tab label is the heading text.
-- **Tab bar at the bottom.** Click a tab to show only its content. Click **All** to show the whole document again.
-- **Intro tab.** Any content above the first Heading 1 gets its own *Intro* tab.
-- **Outline pane works as usual.** If clicking a heading there moves your cursor into another tab, the extension switches to that tab.
-- **Safe select-all.** Ctrl+A selects only the visible tab, so you can not accidentally delete other tabs' contents.
+- **Heading 1 = new tab**: type `#` followed by a space at the start of a line (or pick *Heading 1* from the toolbar) to create a new tab. The tab label is the heading text.
+- **Tab bar at the bottom**: click a tab to show only its content. Click **All** to show the whole document again.
+- **Intro tab**: any content above the first Heading 1 gets its own *Intro* tab.
+- **Outline pane works as usual**: the outline pane on the left will navigate for Headings 2 to 6 as usual.
+- **Safe select-all**: Ctrl+A selects only the visible tab, so you can not accidentally delete other tabs' contents.
 
 ## Installation
 
@@ -23,10 +23,11 @@ A small browser extension that adds tabs to [Proton Docs](https://proton.me/driv
 
 Install the extension from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tabs-in-proton-docs/). Updates will be installed automatically.
 
-### Brave and other Chromium browsers
+### Brave and Chromium browsers
 
 > [!CAUTION]
-> STOP USING GOOGLE CHROME. It offers almost zero benefit to most users over Brave or Firefox; that is, unless you enjoy being Google's guinea pig. Switching takes less than 15 minutes for most people.
+> STOP USING GOOGLE CHROME!<br>
+> It offers almost zero benefit to most users over Brave or Firefox; that is, unless you enjoy being Google's guinea pig. Switching takes less than 15 minutes for most people.
 
 1. [Download the extension](https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/refs/heads/base/tabs-in-proton-docs-v0.1.zip) (ZIP file) and unzip it.
 2. Keep the folder in a permanent location (e.g., `Documents`), since the browser loads the extension from there.
@@ -46,7 +47,7 @@ Install the extension from [Mozilla Add-ons](https://addons.mozilla.org/en-US/fi
 
 ## Good to know
 
-- **Your document is never modified.** Tabs are a visual layer only: the extension hides other tabs' content on your screen and saves nothing to the document. Collaborators, the mobile apps, and exports always see the full document.
+- **Your document is never modified.** Tabs are just a visual layer. The extension hides other tabs' content on your screen and saves nothing to the document. Collaborators, the mobile apps, and exports will always see the full document.
 - **The selected tab is not remembered.** After reloading the page, the first tab will be shown.
 - **Proton updates may break it.** The extension depends on the current structure of the Proton Docs editor. If Proton changes it, the tab bar may stop appearing, but your document stays untouched.
 - The extension runs entirely in your browser, makes no network requests, collects no data, and needs no special permissions beyond running on `docs.proton.me` and `docs-editor.proton.me`.
