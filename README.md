@@ -1,7 +1,7 @@
 # Tabs in Proton Docs
 **—Add multiple tabs in Proton Docs**
 
-A small browser extension that adds tabs to [Proton Docs](https://proton.me/drive/docs) documents. Every **Heading 1** in your document becomes a tab, and only the selected tab's content is shown. Headings 2 to 6 stay free to use inside each tab. The Outline sidebar on the left works as usual within the current tab but does not switch between tabs; use the tab bar at the bottom for that.
+A small browser extension that adds tabs to [Proton Docs](https://proton.me/drive/docs) documents, available for Firefox and Chromium browsers. Every **Heading 1** in your document becomes a tab, and only the selected tab's content is shown. Headings 2 to 6 stay free to use inside each tab. The Outline sidebar on the left works as usual within the current tab but does not switch between tabs; use the tab bar at the bottom for that.
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Usage_example.png" alt="Tabs in Proton Docs extension usage example" width="700">
 
@@ -21,7 +21,7 @@ A small browser extension that adds tabs to [Proton Docs](https://proton.me/driv
 
 ### Firefox
 
-Install the extension from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tabs-in-proton-docs/). Updates will be installed automatically.
+Install the extension from [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tabs-in-proton-docs/). Updates will be installed automatically. It should work similarly in other Gecko-based browsers (e.g., LibreWolf, Waterfox, Zen, and Mullvad), but not all were tested.
 
 ### Brave and Chromium browsers
 
@@ -38,7 +38,7 @@ Install the extension from [Mozilla Add-ons](https://addons.mozilla.org/en-US/fi
 
 <img src="https://github.com/Niloy333/Tabs-in-Proton-Docs/raw/base/Images/Brave_Extensions_page.png" alt="Brave extensions page" width="700">
 
-The extension will stay installed and active across browser and system restarts. To update it (manually), replace the folder's contents with the newer version and click the reload icon on the extension's card.
+The extension will stay installed and active across browser and system restarts. To update it (manually), replace the folder's contents with the newer version and click the reload icon on the extension's card. It should work similarly in all Chromium browsers (e.g., Vivaldi, Helium, and Ungoogled Chromium), but not all were tested. Do not use Microsoft Edge.
 
 ## Tips
 
